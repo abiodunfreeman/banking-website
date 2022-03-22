@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+}
+header > nav {
+  gap: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header > nav > a {
+  text-decoration: none;
+  color: hsl(233, 8%, 62%);
+}
+header > button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 40px;
+  color: white;
+  background-image: linear-gradient(
+    to top right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+}
+header > button:hover {
+  cursor: pointer;
+}
