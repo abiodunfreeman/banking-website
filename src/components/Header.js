@@ -11,7 +11,7 @@ export default function Header() {
         <a href="#">Blog</a>
         <a href="#">Careers</a>
       </nav>
-      <button>Request Invite</button>
+      <button className="req-btn">Request Invite</button>
     </header>
   );
 }

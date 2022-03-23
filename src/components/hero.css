@@ -1,0 +1,36 @@
+#hero-container {
+  border: 3px solid deeppink;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 100%;
+  height: 60vh;
+  background-origin: border-box;
+}
+#hero-desc {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 3rem;
+}
+#hero-img-container {
+  border: 6px solid purple;
+
+  background-image: url("./images/bg-intro-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#hero-img-container > img {
+  /* border: 3px solid black;
+  max-width: 80%;
+  position: absolute;
+  /* position: relative; */
+  /* float: right; */
+  /* top: -50px;
+  left: 160px; */
+}
+#hero-bg {
+}
+#hero-phones {
+}
